@@ -1,0 +1,17 @@
+* text=auto eol=lf
+
+*.md  text eol=lf
+*.tex text eol=lf diff=tex
+*.cls text eol=lf diff=tex
+*.bst text eol=lf
+*.bib text eol=lf
+*.sh  text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+Makefile text eol=lf
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

@@ -1,0 +1,35 @@
+# Operating-system and editor files
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+.texpadtmp/
+
+# Local working material that must not enter the public repository
+/private/
+/tmp/
+
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+_minted-*/
+
+# The reviewed PL-template.pdf is a release artifact and is intentionally
+# tracked; do not add a blanket *.pdf rule here.
